@@ -1,0 +1,53 @@
+body {
+  margin: 0 auto;
+  max-width: 1264px;
+  min-width: 980px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main h1 {
+  align-self: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+}
+
+.socials h3 {
+  flex-basis: 10%;
+}
+
+.socials ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  flex-basis: 20%;
+  list-style-type: none;
+}
+
+.info-container {
+  display: flex;
+  align-self: center;
+}
+
+p {
+  align-self: center;
+}
